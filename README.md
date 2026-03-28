@@ -1,17 +1,28 @@
 # 📊 Monte Carlo Risk Analysis – Hindustan Unilever (HUL)
 
+## 🚀 Key Results
+
+* 📉 Expected Return: **-2.15%**
+* ⚠️ Probability of Loss: **58.33%**
+* 🔻 Value at Risk (95%): **₹1509**
+
+---
+
 ## 📌 Overview
 
-This project applies Monte Carlo Simulation to forecast future stock prices of Hindustan Unilever and evaluate financial risk using historical data.
+This project applies **Monte Carlo Simulation** to forecast future stock prices of Hindustan Unilever and evaluate financial risk using historical data.
+
+It models uncertainty in stock movements and provides **data-driven insights for risk-aware decision making**.
 
 ---
 
 ## 🧠 Key Concepts
 
 * Monte Carlo Simulation
-* Geometric Brownian Motion
+* Geometric Brownian Motion (GBM)
 * Log Returns
-* Volatility & Drift
+* Volatility (σ) & Drift (μ)
+* Probability Distribution
 * Value at Risk (VaR)
 
 ---
@@ -50,17 +61,27 @@ This project applies Monte Carlo Simulation to forecast future stock prices of H
 
 ## 🔍 Key Insights
 
-* Expected return is negative → bearish outlook
-* Probability of loss > 50% → higher downside risk
-* VaR shows significant potential loss in worst-case scenarios
-* Wide distribution indicates uncertainty and volatility
+* Expected return is **negative**, indicating a bearish outlook
+* Probability of loss exceeds 50%, suggesting **higher downside risk**
+* VaR highlights **significant potential loss in extreme scenarios**
+* Wide distribution reflects **uncertainty and volatility in price movement**
 
 ---
 
 ## 🎯 Business Interpretation
 
-The simulation suggests that Hindustan Unilever carries moderate-to-high downside risk under current conditions.
-While upside potential exists, the likelihood of losses is higher, making it a risk-sensitive investment in the short term.
+The simulation indicates that Hindustan Unilever carries **moderate-to-high downside risk** under current conditions.
+
+Although upside potential exists, the probability distribution suggests that losses are more likely than gains, making it a **risk-sensitive investment in the short term**.
+
+---
+
+## 💡 What This Project Demonstrates
+
+* Application of **statistics in financial modeling**
+* Use of **simulation techniques for risk analysis**
+* Ability to translate data into **business insights**
+* Visualization of uncertainty for **decision-making support**
 
 ---
 
@@ -86,16 +107,8 @@ Monte-Carlo-HUL-Analysis/
 
 ---
 
-## 🚀 Future Improvements
-
-* Multi-stock comparison
-* Portfolio optimization
-* Streamlit dashboard
-* Real vs predicted comparison
-
----
-
 ## 👨‍💻 Author
 
 **Mohd Fazal Hussain**
+MSc Banking & Financial Analytics
 Aspiring Data Analyst / Data Scientist
